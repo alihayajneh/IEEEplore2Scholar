@@ -25,3 +25,20 @@ A sleek and lightweight Chrome extension that injects a handy "Search on Google 
 * `content.js`: Main Javascript injection script that utilizes `MutationObserver` to gracefully hook into the site.
 * `content.css`: Premium aesthetic styling for the injected button with state-based hover shadows.
 * `icon48.png` / `icon128.png`: Generated extension icons.
+
+## 📝 To-Do List & Suggested Features
+We have many great ideas to make this extension even more powerful for academic research:
+- [ ] **Sci-Hub / Free Access Integration:** Leverage the paper's DOI to query Unpaywall or Sci-Hub for free PDF links.
+- [ ] **Quick Citation Copier:** Add a button to instantly format and copy the paper's citation (BibTeX, APA, IEEE) to the clipboard.
+- [ ] **Author Search:** Inject Google Scholar icons next to authors to quickly search for their other works.
+- [ ] **Reading List / Bookmarks:** Implement a popup dashboard to save interesting papers locally or sync to Notion/Obsidian.
+- [ ] **Fetch Citation Metrics:** Automatically retrieve and display how many times the paper has been cited.
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are very welcome! If you have any ideas to improve the extension or want to tackle one of the To-Dos above, feel free to dive in.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
