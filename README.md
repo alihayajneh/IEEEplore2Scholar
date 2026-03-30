@@ -30,7 +30,7 @@ A sleek and lightweight Chrome extension that injects a handy "Search on Google 
 We have many great ideas to make this extension even more powerful for academic research:
 - [ ] **Open Access Integration:** Leverage the paper's DOI to query Unpaywall for legal open-access PDF links.
 - [ ] **Quick Citation Copier:** Add a button to instantly format and copy the paper's citation (BibTeX, APA, IEEE) to the clipboard.
-- [ ] **Author Search:** Inject Google Scholar icons next to authors to quickly search for their other works.
+- [x] **Author Search:** Inject Google Scholar icons next to authors to quickly search for their other works.
 - [ ] **Reading List / Bookmarks:** Implement a popup dashboard to save interesting papers locally or sync to Notion/Obsidian.
 - [ ] **Fetch Citation Metrics:** Automatically retrieve and display how many times the paper has been cited.
 

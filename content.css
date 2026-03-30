@@ -36,3 +36,15 @@
 #ieee-scholar-btn svg {
   display: flex;
 }
+
+/* Author Icon Styles */
+.ieee-author-scholar-icon {
+  text-decoration: none !important;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.ieee-author-scholar-icon:hover {
+  transform: scale(1.15);
+}
