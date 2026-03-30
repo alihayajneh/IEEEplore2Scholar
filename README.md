@@ -33,6 +33,13 @@ We have many great ideas to make this extension even more powerful for academic 
 - [x] **Author Search:** Inject Google Scholar icons next to authors to quickly search for their other works.
 - [ ] **Reading List / Bookmarks:** Implement a popup dashboard to save interesting papers locally or sync to Notion/Obsidian.
 - [ ] **Fetch Citation Metrics:** Automatically retrieve and display how many times the paper has been cited.
+- [ ] **Related Papers Sidebar:** Show a compact floating panel with the top 5 related papers from Google Scholar or Semantic Scholar API.
+- [ ] **Abstract Highlighter:** Auto-highlight key terms (methods, datasets, metrics) in the abstract using NLP keyword extraction.
+- [ ] **Export to Reference Manager:** One-click export to Zotero, Mendeley, or EndNote via their browser integration APIs.
+- [ ] **Conference/Journal Impact Badge:** Display the venue's impact factor or h-index as a small badge on the page.
+- [ ] **PDF Annotation Sync:** Allow users to annotate the PDF viewer and sync highlights/notes to a local storage or cloud service.
+- [ ] **Multi-Search Engine Support:** Add options to search on Semantic Scholar, DBLP, or ResearchGate in addition to Google Scholar.
+- [ ] **Dark Mode Toggle:** Provide a toggle to apply a comfortable dark theme over IEEE Xplore pages for late-night reading.
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are very welcome! If you have any ideas to improve the extension or want to tackle one of the To-Dos above, feel free to dive in.
