@@ -1,8 +1,12 @@
 function tryAddButton() {
+  // Safety: only run on IEEE Xplore
+  if (!window.location.hostname.includes('ieeexplore.ieee.org')) return false;
+
   if (document.getElementById('ieee-scholar-btn')) {
     return;
   }
-  const titleElement = document.querySelector('h1.document-title') || document.querySelector('.document-title') || document.querySelector('h1');
+  // Only target IEEE-specific title selectors, no generic fallbacks
+  const titleElement = document.querySelector('h1.document-title') || document.querySelector('.document-title');
   if (titleElement && titleElement.textContent) {
     const titleText = titleElement.textContent.trim();
     if (!titleText) return;
