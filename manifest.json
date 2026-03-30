@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "IEEE to Scholar",
+  "version": "1.0",
+  "description": "Adds a button on IEEE Xplore document pages to easily search the article title on Google Scholar.",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://ieeexplore.ieee.org/document/*",
+        "*://ieeexplore.ieee.org/abstract/document/*"
+      ],
+      "css": ["content.css"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
